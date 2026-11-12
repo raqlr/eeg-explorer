@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.streamlit/secrets.toml
+# Keep downloaded recordings and exports out of git
+data/*
+!data/README.md
+*.fif
+*.edf
+*.bdf
+*.set
+*.vhdr
+*.eeg
+*.vmrk
